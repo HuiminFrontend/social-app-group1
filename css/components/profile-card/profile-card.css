@@ -1,17 +1,29 @@
 .card__main{
   background: url(https://source.unsplash.com/random/700x300);
   background-repeat: no-repeat;
-  position: relative;
   
+ height: 100vh;
+  position: relative;
+  color: white;
+  border: 2px blue solid;
   
   
 }
 .card__profile{
-  position: absolute;
-  left: 45%;
+ 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+border: solid red 2px;
+position: relative;
+top: 12rem;
+
 }
-
-
+.profile__content{
+ 
+  margin: auto;
+  border: solid yellow;
+}
 
 
 .card__picture {
