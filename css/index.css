@@ -6,4 +6,5 @@
 
 @import "components/navigation/navigation.css";
 @import "components/button/button.css";
-@import "/css/components/profile-card/profile-card.css"
+@import "/css/components/profile-card/profile-card.css";
+@import "/css/components/footer/footer.css";
