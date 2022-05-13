@@ -1,15 +1,21 @@
 .card__main{
   background: url(https://source.unsplash.com/random/700x300);
   background-repeat: no-repeat;
+  position: relative;
   
   
   
 }
+.card__profile{
+  position: absolute;
+  left: 45%;
+}
+
 
 
 
 .card__picture {
-  position: relative;
+  
   height: 200px;
   width: 200px;
   overflow: hidden;
