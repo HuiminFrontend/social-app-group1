@@ -1,9 +1,9 @@
 .tag-list {
   display: flex;
   flex-direction: row;
-  overflow-y: auto;
-  display: inline-block;
+  overflow-y: visible;
   width: 100%;
+  gap: 1.2rem;
 }
 
 .tag-list__link {
@@ -13,6 +13,7 @@
   color: white;
   font-size: 0.8rem;
   text-decoration: none;
+  display: inline-block;
 }
 
 .tag-list__link--active {
