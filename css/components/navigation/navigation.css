@@ -1,20 +1,21 @@
-.navigation {
+.navigation__items {
   display: flex;
   flex-wrap: wrap;
   color: white;
   width: 100%;
   gap: 1rem;
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  margin: auto;
 }
 
-.navigation a {
+.navigation__items a {
   color: white;
   display: inline-block;
   padding: 1.7rem;
   text-decoration: none;
 }
 
-a.navigation--active:after {
+a.navigation__items--active:after {
   content: "";
   display: block;
   max-width: 100%;
