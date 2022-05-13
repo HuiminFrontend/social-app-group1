@@ -8,6 +8,10 @@ footer {
   z-index: 2;
 }
 
+p {
+  font-family: "HK Grotesk", sans-serif;
+}
+
 .app {
   max-width: 1000px;
   background-color: honeydew;
