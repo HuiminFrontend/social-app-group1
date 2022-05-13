@@ -1,2 +1,6 @@
 @import "card-footer.css";
 @import "card-header.css";
+
+.card {
+  margin: 2rem;
+}

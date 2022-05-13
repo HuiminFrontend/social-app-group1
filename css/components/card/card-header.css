@@ -1,9 +1,3 @@
 .profile-foto-small {
   width: 1vw;
 }
-
-.card-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
