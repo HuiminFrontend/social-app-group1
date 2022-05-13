@@ -38,10 +38,15 @@
   margin-top: 1rem;
   width: 100%;
   height: auto;
-
+  object-fit: none;
   border-radius: 5%;
 }
 
+.card-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 .card-footer__menu {
   width: 100%;
   margin: 0 auto;
