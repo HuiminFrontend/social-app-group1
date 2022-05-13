@@ -10,7 +10,7 @@
 .navigation a {
   color: white;
   display: inline-block;
-  padding: 2rem;
+  padding: 1.7rem;
   text-decoration: none;
 }
 
@@ -18,7 +18,7 @@ a.navigation--active:after {
   content: "";
   display: block;
   max-width: 100%;
-  border-bottom: 0.12em solid blue;
+  border-bottom: 4px solid var(--color-primary);
   font-weight: 600;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
