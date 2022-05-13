@@ -1,6 +1,13 @@
+@import "../../global.css";
+@import "../../reset.css";
 @import "card-footer.css";
 @import "card-header.css";
+@import "card-image.css";
 
 .card {
   margin: 2rem;
+  color: white;
+}
+svg {
+  fill: white;
 }
