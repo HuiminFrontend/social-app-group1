@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
 }
 
 footer {
@@ -11,4 +12,10 @@ footer {
   max-width: 1000px;
   background-color: honeydew;
   height: 100%;
+}
+
+.main {
+  max-width: 70vw;
+  background-color: aquamarine;
+  margin: auto;
 }
