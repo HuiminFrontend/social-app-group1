@@ -1,13 +1,13 @@
 .card-footer__bookmark__icon,
 .card-footer__upload__icon,
 .card-footer__thumbup__icon,
-.card-footer__message__icon,
-.card-footer__menu {
+.card-footer__message__icon {
   width: 1rem;
   height: 1rem;
 }
 
 .card-footer {
+  margin: 1rem 0;
   display: flex;
   justify-content: flex-start;
   gap: 1rem;
@@ -23,42 +23,15 @@
   gap: 0.3rem;
 }
 
-.card-profile__foto {
-  width: 10vw;
-  height: auto;
-  border-radius: 50%;
-}
-
-.card-profile {
-  display: flex;
-  gap: 1rem;
-}
-
-.card-image {
-  margin-top: 1rem;
-  width: 100%;
-  height: auto;
-  object-fit: none;
-  border-radius: 5%;
-}
-
-.card-images {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-.card-footer__menu {
-  width: 100%;
-  margin: 0 auto;
-}
-.card-footer__bookmark__icon {
-  width: 2rem;
-  height: 2rem;
-}
 .card-footer__bookmark {
   width: 1.2rem;
   height: 1.2rem;
   position: absolute;
   right: 0;
   top: 30%;
+}
+
+.card-footer__bookmark__icon {
+  width: 2rem;
+  height: 2rem;
 }

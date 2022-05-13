@@ -1,0 +1,23 @@
+.card-image {
+  margin: 1rem 0;
+  width: 100%;
+  height: auto;
+  object-fit: none;
+  border-radius: 5%;
+}
+
+.card-images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card-images::after {
+  font-size: larger;
+  font-weight: 600;
+  content: ". . .";
+  position: absolute;
+  right: 50%;
+  bottom: -0.5rem;
+}
