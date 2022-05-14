@@ -4,31 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css"> 
-    <title>Profile Card</title>
-
     <link
       rel="stylesheet"
-      href="../css/index.css"
+      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css"
     />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="../css/index.css" />
   </head>
 
   <body>
-<main class="card__main">
-    
-  <section class="card__profile">
-    
+    <main class="card__main">
+      <section class="card__profile">
+        
+        <section class="profile__content">
 
-    <section class="profile__content">
-      <img src="../Images/ProfilePicture.jpg" class="card__picture" alt="" />
-      <h1>Kat William</h1>
-      <h6>Boston, MA</h6>
+         <img src="/images/Kat_picture.png" class="card__picture" alt="" />
+         
+  
+               <h1>Kat Williams</h1>
+               
+            
+          <span class="location">Boston, MA</span>
+          
+       
+          <p>I design experiences mostly. I also sometimes travel.</p>
 
-      <p>I design experiences mostly. I also sometimes travel.</p>
+          
+        </section>
+        <section class="card__follower">
+          <p>6,281k <span class="card__follower-lowlight"><br>Followers</br></span</p>
+          <p>10,8k <span class="card__follower-lowlight"><br>Following</br></span></p>
 
-      <p></p>
-    </section>
-  </section>
-  </main>
+          <button class="btn">
+            <p>Follow</p>
+          </button>
+         
+        </section>
+        <section class="card__followed">
+          <img src="/images/Follower.png" class="card__followed-pictures" alt="">
+        <span class="card__followed-lowlight">Followed by Sofia, Jon and 12+ others</span>
+        
+      </section>
+      </section>
+    </main>
   </body>
-</html>
+  </html>

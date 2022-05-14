@@ -1,36 +1,61 @@
-.card__main{
+.card__main {
   background: url(https://source.unsplash.com/random/700x300);
   background-repeat: no-repeat;
-  
- height: 100vh;
+
+  height: 100vh;
   position: relative;
   color: white;
   border: 2px blue solid;
-  
-  
 }
-.card__profile{
- 
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-border: solid red 2px;
-position: relative;
-top: 12rem;
-
-}
-.profile__content{
- 
-  margin: auto;
-  border: solid yellow;
-}
-
 
 .card__picture {
-  
   height: 200px;
   width: 200px;
   overflow: hidden;
   border-radius: 50%;
-  z-index: 1;
+  padding: 0.3em;
+}
+
+.card__profile {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /*border: solid red 2px;*/
+  position: relative;
+  top: 12rem;
+}
+
+/*.profile__content {
+ border: solid yellow;*/
+
+.material-symbols-outlined {
+  position: relative;
+  left: -auto;
+  bottom: -1.2em;
+}
+
+.location {
+  color: var(--light-grey);
+}
+
+.card__follower {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 1.3em;
+  text-align: left;
+}
+
+.card__followed {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.3em;
+}
+
+.card__follower-lowlight {
+  color: var(--light-grey);
+}
+.card__followed-lowlight {
+  color: var(--light-grey);
 }
