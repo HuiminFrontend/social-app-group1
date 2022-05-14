@@ -23,12 +23,35 @@
   color: gray;
 }
 
-.card-profile::after {
-  font-size: larger;
-  font-weight: 600;
-  content: "...";
-  transform: rotate(90deg);
+.card-profile__foto {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+}
+
+.card-profile {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+}
+
+.card-profile__name {
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.card-profile__time {
+  color: gray;
+}
+
+.card-profile__menu {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.card-profile__menu li {
+  height: 1.3vh;
+  color: grey;
+  font-size: larger;
 }
