@@ -1,0 +1,38 @@
+h3,
+p {
+  color: white;
+  font-family: "HK Grotesk", sans-serif;
+}
+
+.notification__container {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.notification__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.notification__date {
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  color: var(--light-grey);
+}
+
+.notification__body {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.notification__text {
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.notification__time {
+  color: var(--light-grey);
+}
