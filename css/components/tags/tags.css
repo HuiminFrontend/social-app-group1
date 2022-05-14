@@ -1,0 +1,28 @@
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  overflow-y: visible;
+  width: 100%;
+  gap: 1.2rem;
+}
+
+.tag-list__link {
+  border: 1px solid white;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tag-list__link--active {
+  background-color: var(--color-primary);
+  border: none;
+
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+}

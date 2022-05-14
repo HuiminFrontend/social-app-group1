@@ -21,5 +21,6 @@ a.navigation__items--active:after {
   max-width: 100%;
   border-bottom: 4px solid var(--color-primary);
   font-weight: 600;
-  padding-bottom: 1rem;
+  position: relative;
+  top: 1.8rem;
 }
