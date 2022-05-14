@@ -1,7 +1,7 @@
-.profile-foto-small {
+/* .profile-foto-small {
   width: 1vw;
 }
-
+ */
 .card-profile__foto {
   width: 10vw;
   height: 10vw;
@@ -10,12 +10,12 @@
 
 .card-profile {
   display: flex;
-  gap: 1rem;
   position: relative;
+  gap: 1rem;
 }
 
 .card-profile__name {
-  font-size: 5vw;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -23,12 +23,14 @@
   color: gray;
 }
 
-.card-profile::after {
-  font-size: larger;
-  font-weight: 600;
-  content: "...";
-  transform: rotate(90deg);
+.card-profile__menu {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.card-profile__menu li {
+  height: 1.3vh;
+  color: grey;
+  font-size: larger;
 }

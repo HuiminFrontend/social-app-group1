@@ -3,6 +3,7 @@
 @import "card-footer.css";
 @import "card-header.css";
 @import "card-image.css";
+@import "card-text.css";
 
 .card {
   margin: 2rem;
