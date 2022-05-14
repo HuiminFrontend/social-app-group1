@@ -5,7 +5,7 @@ p {
 }
 
 .notification__container {
-  padding: 1.4rem 0;
+  padding: 2rem 0;
   border-bottom: 1px solid var(--light-grey);
 }
 
@@ -13,6 +13,11 @@ p {
   display: flex;
   justify-content: space-between;
   padding-bottom: 2rem;
+}
+
+.notification__icon {
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .notification__date {
