@@ -2,7 +2,7 @@
 @import "colors.css";
 @import "utility.css";
 @import "colors.css";
-@import "global.css";
+@import "./global.css";
 
 @import "components/navigation/navigation.css";
 @import "components/button/button.css";
