@@ -1,32 +1,66 @@
-.card__main {
+.profile-card__main {
   background: url(https://source.unsplash.com/random/700x300);
+  background-size: 100% 35%;
   background-repeat: no-repeat;
 
   height: 100vh;
   position: relative;
   color: white;
-  border: 2px blue solid;
+  
 }
-
-.card__picture {
-  height: 200px;
+.profile-card__picture__outside, .profile-card__picture__inside{
+  box-sizing:border-box;  
+  border-radius:50%;
+}
+.profile-card__picture__inside{
+  position:absolute;
+  top:1.5%;
+  left:1.5%;
+  width: 97%;
+  height: 97%;
+  border: 5px solid black;
+  
+}
+.profile-card__picture__outside{
   width: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-  padding: 0.3em;
+  height: 200px;
+  position:relative;
+  background-image: linear-gradient(90deg, rgba(246,46,142,1) 35%, rgba(172,26,240,1) 100%); 
 }
 
-.card__profile {
+.profile-card__profile {
   text-align: center;
   display: flex;
   flex-direction: column;
-  /*border: solid red 2px;*/
   position: relative;
-  top: 12rem;
+  top: 4rem;
 }
 
-/*.profile__content {
- border: solid yellow;*/
+.profile-card__content {
+ height: 21rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.profile-card__back{
+  height: 2rem;
+  width: 2rem;
+ border: rgb(215, 207, 207) solid 1px;
+  border-radius: 50%;
+  align-self: flex-start;
+  margin-left: 1rem;
+  color: white;
+  background-color: black;
+
+  
+}
+.profile-card__header{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
 
 .material-symbols-outlined {
   position: relative;
@@ -38,7 +72,7 @@
   color: var(--light-grey);
 }
 
-.card__follower {
+.profile-card__follower {
   display: flex;
   justify-items: center;
   justify-content: space-between;
@@ -46,16 +80,18 @@
   text-align: left;
 }
 
-.card__followed {
+.profile-card__followed {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 0.3em;
+  justify-content: space-between;
+  padding: 1em;
 }
 
-.card__follower-lowlight {
+.profile-card__follower-lowlight {
   color: var(--light-grey);
 }
-.card__followed-lowlight {
+.profile-card__followed-lowlight {
   color: var(--light-grey);
 }
+
+
