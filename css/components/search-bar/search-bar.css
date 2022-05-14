@@ -1,6 +1,11 @@
+.search-bar {
+  padding: 2rem 1rem;
+}
+
 .search-bar__input {
+  width: 100%;
   color: white;
-  background-color: lightblue;
+  background-color: var(--input-grey);
   padding: 1rem;
   border-radius: 4rem;
   border: none;

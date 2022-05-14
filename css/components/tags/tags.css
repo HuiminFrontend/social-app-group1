@@ -4,10 +4,11 @@
   overflow-y: visible;
   width: 100%;
   gap: 1.2rem;
+  padding-top: 2rem;
 }
 
 .tag-list__link {
-  border: 1px solid white;
+  border: 2px solid var(--input-grey);
   border-radius: 2rem;
   padding: 0.5rem 1rem;
   color: white;
