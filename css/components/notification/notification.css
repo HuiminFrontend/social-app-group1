@@ -4,6 +4,12 @@ p {
   font-family: "HK Grotesk", sans-serif;
 }
 
+.notification__messages {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--color-secondary);
+}
+
 .notification__container {
   padding: 2rem 0;
   border-bottom: 1px solid var(--light-grey);
