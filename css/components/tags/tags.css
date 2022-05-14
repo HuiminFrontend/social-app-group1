@@ -1,7 +1,7 @@
 .tag-list {
   display: flex;
   flex-direction: row;
-  overflow-y: visible;
+  overflow-y: hidden;
   width: 100%;
   gap: 1.2rem;
   padding-top: 2rem;
