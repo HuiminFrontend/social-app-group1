@@ -33,7 +33,8 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 4rem;
+  top: 3rem;
+
 }
 
 .profile-card__content {
