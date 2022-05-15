@@ -8,6 +8,7 @@
 .card {
   margin: 2rem;
   color: white;
+  padding-bottom: 5rem;
 }
 svg {
   fill: white;
