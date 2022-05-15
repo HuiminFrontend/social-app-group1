@@ -22,3 +22,8 @@
 .card-image__menu__active {
   color: var(--color-secondary);
 }
+
+.card__submenu__icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}

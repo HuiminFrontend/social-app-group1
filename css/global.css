@@ -24,3 +24,18 @@ footer {
   max-width: 1000px;
   margin: auto;
 }
+
+.greeting {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.greeting__headline {
+  font-size: 1.4rem;
+}
+
+.greeting__icon {
+  width: 3rem;
+  height: 3rem;
+}
