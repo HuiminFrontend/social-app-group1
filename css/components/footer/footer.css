@@ -3,11 +3,14 @@ footer {
   margin: auto;
   position: fixed;
   bottom: 0;
+  z-index: 1;
+  background-color: black;
 }
 
 .footer {
-  width: 100%;
+  max-width: 1000px;
   display: flex;
+  margin: auto;
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;

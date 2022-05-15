@@ -1,13 +1,14 @@
 .tag-list {
   display: flex;
   flex-direction: row;
-  overflow-y: visible;
+  overflow-y: hidden;
   width: 100%;
   gap: 1.2rem;
+  padding-top: 2rem;
 }
 
 .tag-list__link {
-  border: 1px solid white;
+  border: 2px solid var(--input-grey);
   border-radius: 2rem;
   padding: 0.5rem 1rem;
   color: white;
@@ -16,10 +17,15 @@
   display: inline-block;
 }
 
+.tag-list__link:active,
+.tag-list__link:hover,
+.tag-list__link:focus {
+  background-color: var(--color-primary);
+}
+
 .tag-list__link--active {
   background-color: var(--color-primary);
   border: none;
-
   border-radius: 2rem;
   padding: 0.5rem 1rem;
   color: white;

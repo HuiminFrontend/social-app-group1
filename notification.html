@@ -5,85 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Description here" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css"> 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css"
+    />
 
     <link rel="stylesheet" href="./css/index.css" />
     <title>Social App</title>
   </head>
   <body>
+    <div class="main-content-container">
+      <section class="notification">
+        <div class="notification__header">
+          <h3>Alerts</h3>
+          <p class="notification__messages">Mark all as read</p>
+        </div>
 
-
-     <section class="notification">
-         <div class="notification__header">
-             <h3>Alerts</h3>
-             <p class="notification__messages">Mark all as read</p>
-         </div>
-
-            <div class="notification__container">
-             <p class="notification__date"> Today </p>
-             <div class="notification__body">
+        <div class="notification__container">
+          <p class="notification__date">Today</p>
+          <div class="notification__body">
             <div>
-                <img class="notification__icon" src="./img/thumbs-icon.svg" alt="">
-             </div>
+              <img
+                class="notification__icon"
+                src="./img/thumbs-icon.svg"
+                alt=""
+              />
+            </div>
             <div class="notification__text">
-            <p><strong>Sofia, John and +19 others</strong> liked your post.</p>
-            <p class="notification__time">10m ago</p>
-             </div>
-         </div>
-             </div>
-
-
-    <div class="notification__container">
-       <div class="notification__body">
-       <div>
-          <img class="notification__icon" src="./img/thumbs-icon.svg" alt="">
-       </div>
-       <div class="notification__text">
-          <p><strong>Rebecca, Daisy and +11 others</strong> liked your post.</p>
-          <p class="notification__time">30m ago</p>
-       </div>      
-      </div>     
-  </div>
-
-  <div class="notification__container">
-    <p class="notification__date"> Yesterday </p>
-    <div class="notification__body">
-   <div>
-       <img class="notification__icon" src="./img/bubble-icon.svg" alt="">
-    </div>
-   <div class="notification__text">
-   <p><strong>Katrina, Denver +19 others</strong> liked your post.</p>
-   <p class="notification__time">1d ago</p>
-    </div>
-</div>
-    </div>
-    <div class="notification__container">
-
-        <div class="notification__body">
-       <div>
-           <img class="notification__icon" src="./img/s-icon.svg" alt="">
+              <p>
+                <strong>Sofia, John and +19 others</strong> liked your post.
+              </p>
+              <p class="notification__time">10m ago</p>
+            </div>
+          </div>
         </div>
-       <div class="notification__text">
-       <p><strong>Savannah Wilson</strong>is celebrating her birthday today. Drop a wish!</p>
-       <p class="notification__time">10m ago</p>
+
+        <div class="notification__container">
+          <div class="notification__body">
+            <div>
+              <img
+                class="notification__icon"
+                src="./img/thumbs-icon.svg"
+                alt=""
+              />
+            </div>
+            <div class="notification__text">
+              <p>
+                <strong>Rebecca, Daisy and +11 others</strong> liked your post.
+              </p>
+              <p class="notification__time">30m ago</p>
+            </div>
+          </div>
         </div>
-    </div>
+
+        <div class="notification__container">
+          <p class="notification__date">Yesterday</p>
+          <div class="notification__body">
+            <div>
+              <img
+                class="notification__icon"
+                src="./img/bubble-icon.svg"
+                alt=""
+              />
+            </div>
+            <div class="notification__text">
+              <p>
+                <strong>Katrina, Denver +19 others</strong> liked your post.
+              </p>
+              <p class="notification__time">1d ago</p>
+            </div>
+          </div>
         </div>
         <div class="notification__container">
-            <div class="notification__body">
-           <div>
-               <img class="notification__icon" src="./img/at-icon.svg" alt="">
+          <div class="notification__body">
+            <div>
+              <img class="notification__icon" src="./img/s-icon.svg" alt="" />
             </div>
-           <div class="notification__text">
-           <p><strong>Ralph Edwards</strong> mentioned you in a post.</p>
-           <p class="notification__time">1d ago</p>
+            <div class="notification__text">
+              <p>
+                <strong>Savannah Wilson</strong>is celebrating her birthday
+                today. Drop a wish!
+              </p>
+              <p class="notification__time">10m ago</p>
             </div>
+          </div>
         </div>
+        <div class="notification__container">
+          <div class="notification__body">
+            <div>
+              <img class="notification__icon" src="./img/at-icon.svg" alt="" />
             </div>
-
-    
-     </section>
-     </footer>
-    </main>
+            <div class="notification__text">
+              <p><strong>Ralph Edwards</strong> mentioned you in a post.</p>
+              <p class="notification__time">1d ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <section class="footer">
+        <img class="footer__icon" src="/img/feed.svg" alt="" />
+        <img class="footer__icon" src="/img/search.svg" alt="" />
+        <img class="footer__icon--create" src="/img/create.svg" alt="" />
+        <img class="footer__icon" src="/img/alert.svg" alt="" />
+        <img class="footer__icon" src="/img/profile.svg" alt="" />
+      </section>
+    </footer>
   </body>
 </html>
