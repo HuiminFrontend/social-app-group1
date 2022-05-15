@@ -6,7 +6,6 @@
   width: 100%;
   background-repeat: no-repeat;
 }
-
 .profile-card__picture__outside,
 .profile-card__picture__inside {
   box-sizing: border-box;
@@ -30,7 +29,6 @@
     rgba(172, 26, 240, 1) 100%
   );
 }
-
 .profile-card__profile {
   overflow-x: auto;
   width: 100vw;
@@ -38,14 +36,12 @@
   position: absolute;
   top: 2rem;
 }
-
 .profile-card__profile--alex {
   overflow-x: auto;
   width: 100vw;
   height: 100%;
   margin-top: -15vw;
 }
-
 .profile-card__content {
   display: flex;
   flex-direction: column;
@@ -54,7 +50,6 @@
   gap: 0.2rem;
   color: white;
 }
-
 .profile-card__bookmark-and-message-icon {
   display: flex;
   flex-flow: column wrap;
@@ -63,7 +58,6 @@
   top: 0.5rem;
   position: absolute;
 }
-
 .profile-card__icon-back {
   height: 2rem;
   width: 2rem;
@@ -79,11 +73,9 @@
   gap: 1rem;
   align-items: center;
 }
-
 .location {
   color: var(--light-grey);
 }
-
 .profile-card__follower {
   display: flex;
   justify-items: center;
@@ -91,13 +83,11 @@
   padding: 1.3em;
   text-align: left;
 }
-
 .profile-card__followed {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-
 .profile-card__follower-lowlight {
   color: var(--light-grey);
 }
