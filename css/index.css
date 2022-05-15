@@ -15,4 +15,5 @@
 @import "/css/components/notification/notification.css";
 
 @import "/css/components/card/card.css";
-@import "/css/components/home-headline.css";
+@import "/css/components/home/home-headline.css";
+@import "/css/components/home/home-story.css";
