@@ -13,11 +13,24 @@
   position: relative;
 }
 
-.profile-card__picture__outside {
+.story__story-reel__picture {
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: absolute;
+  top: 1.5%;
+  left: 1.5%;
+  width: 97%;
+  height: 97%;
+  border: 5px solid black;
+}
+
+.story__story-reel__profile {
+  box-sizing: border-box;
+  border-radius: 50%;
   width: 70px;
   height: 70px;
-  position: absolute;
-  bottom: 20px;
+  position: relative;
+  bottom: 80px;
   left: 60px;
 
   background-image: linear-gradient(
