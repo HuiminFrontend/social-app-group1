@@ -3,8 +3,8 @@
 }
  */
 .card-profile__foto {
-  width: 10vw;
-  height: 10vw;
+  width: 14vw;
+  height: 14vw;
   border-radius: 50%;
 }
 
@@ -12,15 +12,18 @@
   display: flex;
   position: relative;
   gap: 1rem;
+  justify-content: space-between;
 }
 
 .card-profile__name {
   font-size: 1.5rem;
   font-weight: 700;
+  padding-left: 1rem;
 }
 
 .card-profile__time {
   color: gray;
+  padding-left: 1rem;
 }
 
 .card-profile__menu {
