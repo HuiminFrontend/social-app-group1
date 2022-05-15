@@ -1,5 +1,8 @@
 .card-text {
   margin: 1rem;
+  font-weight: 100;
+  font-size: 1.5rem;
+  font-family: "HK Grotesk", sans-serif;
 }
 
 a {

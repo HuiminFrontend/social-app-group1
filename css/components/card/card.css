@@ -9,7 +9,13 @@
   margin: 2rem;
   color: white;
   padding-bottom: 5rem;
+  border-bottom: 1px solid var(--light-grey);
 }
 svg {
   fill: white;
+}
+
+.card-profile__content {
+  display: flex;
+  align-items: center;
 }
