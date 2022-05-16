@@ -1,7 +1,7 @@
-.card-footer__bookmark__icon,
-.card-footer__upload__icon,
-.card-footer__thumbup__icon,
-.card-footer__message__icon,
+.card-footer__bookmark-icon,
+.card-footer__upload-icon,
+.card-footer__thumbup-icon,
+.card-footer__message-icon,
 .card-profile__menu {
   width: 1rem;
   height: 1rem;
@@ -32,8 +32,8 @@
   top: 30%;
 }
 
-.card-footer__bookmark__icon {
-  width: 2rem;
-  height: 2rem;
+.card-footer__bookmark-icon {
+  width: 1.5rem;
+  height: 1.5rem;
   filter: invert(1);
 }
