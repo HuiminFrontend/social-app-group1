@@ -57,7 +57,15 @@
   right: 2rem;
   top: 0.5rem;
   position: absolute;
+  background-color: transparent;
+  border-color: transparent;
 }
+
+.greeting__mail-button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
 .profile-card__icon-back {
   height: 2rem;
   width: 2rem;
@@ -67,7 +75,21 @@
   margin-left: 1rem;
   color: white;
   background-color: black;
+  padding: 0.19em;
 }
+
+.profile-card__envelope {
+  height: 2.1rem;
+  width: 2.1rem;
+  border: rgb(215, 207, 207) solid 1px;
+  border-radius: 50%;
+  align-self: flex-start;
+  margin-left: 1rem;
+  color: white;
+  background-color: black;
+  padding: 0;
+}
+
 .profile-card__header {
   display: flex;
   gap: 1rem;
